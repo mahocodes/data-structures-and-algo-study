@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: study
+netty:
+  default:
+    allocator:
+      max-order: 3
