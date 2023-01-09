@@ -6,18 +6,17 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Arrays;
-import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(MockitoExtension.class)
-class TwoNumberServiceTest {
+class TwoNumberSumTest {
 
-    private TwoNumberService service;
+    private TwoNumberSum service;
 
     @BeforeEach
     void setUp() {
-        service = new TwoNumberService();
+        service = new TwoNumberSum();
     }
 
     @Test
