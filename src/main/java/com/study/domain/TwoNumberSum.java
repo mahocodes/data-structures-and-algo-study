@@ -15,7 +15,7 @@ public class TwoNumberSum {
     // Basically, we have the following function x + y = 10
     // Also y = 10 - x
 
-    // 1st solution
+    // 1st solution 
     // nested for loop to iterate over x and y
     // Complexity 0(n²) => 'cause we iterate the array of N numbers twice
     public int[] twoNumberSum(int[] array, Integer targetSum) {
